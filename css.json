@@ -1,0 +1,9 @@
+{
+    "reset": {
+        "prefix": "resetCSS",
+        "body": [
+            "/* @font-face {\r\tfont-family: \"Whitney\";\r\tfont-style: normal;\r\tfont-weight: normal;\r\tsrc: url(../fonts/Whitney-Book.woff2) format(\"woff2\");\r} */\r\r:root {\r\t--typo1: Helvetica, Arial, sans-serif;\r}\r\r*, ::before, ::after {\r\tmargin: 0;\r\tpadding: 0;\r\tbox-sizing: border-box;\r}\r\rhtml {\r\tfont-size: 62.5%;\r}\r\rbody {\r\tmin-height: 100vh;\r\tfont-family: var(--typo1);\r\tfont-size: 1.8rem;\r}\r\rinput, button, textarea, select {\r\tfont: inherit;\r}"
+        ],
+        "description": "Reset CSS"
+    }
+}

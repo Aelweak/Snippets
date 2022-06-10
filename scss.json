@@ -1,0 +1,9 @@
+{
+    "reset": {
+        "prefix": "resetSCSS",
+        "body": [
+            "/* @font-face {\r\tfont-family: \"Whitney\";\r\tfont-style: normal;\r\tfont-weight: normal;\r\tsrc: url(../fonts/Whitney-Book.woff2) format(\"woff2\");\r} */\r\r$$typo1: Helvetica, Arial, sans-serif;\r$$breakpoints: (\r\tmobile: 375px,\r\ttablet: 768px,\r\tlaptop: 1280px,\r\tdesktop: 1920px,\r);\r\r@mixin mobile-only {\r\t@media screen and (max-width: map-get($breakpoints, mobile)) {\r\t\t@content;\r\t}\r}\r\r@mixin tablet {\r\t@media screen and (max-width: map-get($breakpoints, tablet)) {\r\t\t@content;\r\t}\r}\r\r@mixin laptop {\r\t@media screen and (max-width: map-get($breakpoints, laptop)) {\r\t\t@content;\r\t}\r}\r\r@mixin desktop {\r\t@media screen and (max-width: map-get($breakpoints, desktop)) {\r\t\t@content;\r\t}\r}\r\r*, ::before, ::after {\r\tmargin: 0;\r\tpadding: 0;\r\tbox-sizing: border-box;\r}\r\rhtml {\r\tfont-size: 62.5%;\r}\r\rbody {\r\tmin-height: 100vh;\r\tfont-family: $$typo1;\r\tfont-size: 1.8rem;\r}\r\rinput, button, textarea, select {\r\tfont: inherit;\r}"
+        ],
+        "description": "Reset SCSS"
+    }
+}

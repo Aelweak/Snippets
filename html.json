@@ -1,0 +1,9 @@
+{
+    "resetHTML": {
+        "prefix": "resetHTML",
+        "body": [
+            "<!DOCTYPE html>\r<html lang=\"fr\">\r\t<head>\r\t\t<meta charset=\"UTF-8\" />\r\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\r\t\t<!-- SEO -->\r\r\t\t<title>Document</title>\r\t\t<meta name=\"description\" content=\"\" />\r\r\t\t<!-- Favicon -->\r\r\t\t<!--<link rel=\"shortcut icon\" href=\"./favicon.ico\" type=\"image/x-icon\" />\r\t\t<link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\" />-->\r\r\t\t<!-- Open Graph -->\r\r\t\t<!--<meta property=\"og:title\" content=\"\" />\r\t\t<meta property=\"og:description\" content=\"\"/>\r\t\t<meta property=\"og:site_name\" content=\"\" />\r\t\t<meta property=\"og:type\" content=\"website\" />\r\t\t<meta property=\"og:url\" content=\"\" />\r\t\t<meta property=\"og:image\" content=\"\" />\r\r\t\t<meta name=\"theme-color\" content=\"#ffffff\" />-->\r\r\t\t<!-- Twitter card -->\r\r\t\t<!--<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\t\t<meta name=\"twitter:title\" content=\"\" />\r\t\t<meta name=\"twitter:site\" content=\"@website\" />\r\t\t<meta name=\"twitter:creator\" content=\"@name\" />\r\t\t<meta name=\"twitter:url\" content=\"\" />\r\t\t<meta name=\"twitter:description\" content=\"\" />\r\t\t<meta name=\"twitter:image\" content=\"\" /> -->\r\r\t\t<!-- Style(s) -->\r\r\t\t<link rel=\"stylesheet\" href=\"./style.css\" />\r\r\t\t<!-- Script(s) -->\r\r\t\t<script defer src=\"./script.js\"></script>\r\t</head>\r<body>\r\t\t\r</body>\r</html>"
+        ],
+        "description": "Reset HTML"
+    }
+}
